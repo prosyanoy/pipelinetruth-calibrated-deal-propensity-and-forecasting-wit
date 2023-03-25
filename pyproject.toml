@@ -1,0 +1,10 @@
+[project]
+name = "pipelinetruth"
+version = "0.1.0"
+description = "Calibrated deal propensity and forecasting with honest limits"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+filterwarnings = ["ignore::UserWarning", "ignore::FutureWarning", "ignore::DeprecationWarning"]

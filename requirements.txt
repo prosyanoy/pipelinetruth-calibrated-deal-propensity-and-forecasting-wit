@@ -1,0 +1,13 @@
+numpy
+pandas
+scipy
+scikit-learn
+lightgbm
+duckdb
+mlflow
+fastapi
+uvicorn
+matplotlib
+joblib
+pytest
+httpx
